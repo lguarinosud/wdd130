@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Literata');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color:  #FF6B35;
+    --secondary-color: #004E89;
+    --accent1-color: #F7C59F;
+    --accent2-color: #1A659E;
+
+    --heading-font: 'Crimson Pro', sans-serif;
+    --paragraph-font: 'Crimson Pro', sans-serif;
+
+    --nav-background-color: #F7C59F;
+    --nav-link-color: #1A659E;
+    --nav-hover-link-color: #FF6B35;
+    --nav-hover-background-color: #004E89;
+  }
+
+  header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+    
+  }
+
+nav a {
+    text-decoration: none;
+  }
+
+  main div article {
+    position: absolute;
+    top: 30%;
+    background-color: rgba(247, 197, 159, 0.7);
+    padding: 10px;
+    left: 900px;
+    right: 20px;
+    height: auto;
+    
+
+    
+  }
+
+  .hero{
+    position: relative;
+    width: 100%;
+  }
+  .hero-img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+    
+  }
+
+  .hero h1 {
+    position: absolute;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    top: 15%;
+    width: 100%;
+    text-align: center;
+   
+}
+
+.hero p {
+    color: black;
+
+}
+
+.article-img{
+    width: 150px;
+    height: auto;
+    float: right;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
+
+
+
