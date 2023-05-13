@@ -112,5 +112,26 @@ nav a {
     box-shadow: 0 0 30px gray;
 }
 
+/* adventure section */
+.adventure {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+.adventure figure {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.adventure figure img {
+  max-width: 100%;
+  height: auto;
+}
+
+.adventure figcaption {
+  font-weight: bold;
+  margin-top: 10px;
+}
 
