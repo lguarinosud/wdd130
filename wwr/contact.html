@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Leonardo Guarino">
     <meta name="description" content="Contact page">
-    <title>Contact us</title>
+    <title>Contact us | Whitewater Rafting</title>
 </head>
 <body>
     <header>
@@ -67,24 +67,29 @@
                   <div class="form-item">
                       <ol>
                           <li>
-                              <label for="username">username</label>
-                              <input type="text" id="username" name="username">
+                              <label for="name">Name</label>
+                              <input type="text" id="name" name="name">
                           </li>
                           <li>
+                            <label for="mobile">Mobile</label>
+                            <input type="text" id="mobile" name="mobile">
+                        </li>
+                          <li>
                             
-                              <label for="email">Email:</label>
+                              <label for="email">Email</label>
                               <input type="email" id="useremail" name="useremail">
                           
                           </li>
-                          <li>
-                              <label for="q1">Whats the purpose of the message?</label>
-                              <select id="q1" name="q1">
-                                  <option value="" selected disabled>Select One ...</option>
-                                  <option value="General Inquiry">General Inquiry</option>
-                                  <option value="Reservation Question">Reservation Question</option>
-                                  <option value="Website Suggestion">Website Suggestion</option>
-                              </select>
-
+                         
+                              <li>
+                                <label>What's the purpose of the message?</label><br>
+                                <input type="radio" name="q1" id="q1_1" value="General Inquiry">
+                                <label for="q1_1">General Inquiry</label><br>
+                                <input type="radio" name="q1" id="q1_2" value="Reservation Question">
+                                <label for="q1_2">Reservation Question</label><br>
+                                <input type="radio" name="q1" id="q1_3" value="Website Suggestion">
+                                <label for="q1_3">Website Suggestion</label><br>
+                              </li>
                               <li>
                                 <label for="q2">Write your query here</label>
                                 <textarea id="q2" name="q2" rows="4"></textarea>
