@@ -61,6 +61,11 @@ nav a {
     text-decoration: none;
   }
 
+  section {
+    padding: 50px;
+    
+  }
+  
   main div article {
     position: absolute;
     top: 30%;
@@ -68,10 +73,7 @@ nav a {
     padding: 10px;
     left: 900px;
     right: 20px;
-    height: auto;
-    
-
-    
+    height: auto; 
   }
 
   .hero{
@@ -113,25 +115,162 @@ nav a {
 }
 
 /* adventure section */
-.adventure {
+.employees {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.adventure figure {
+.employees figure {
   margin: 0;
   padding: 0;
   text-align: center;
 }
 
-.adventure figure img {
+.employees figure img {
   max-width: 100%;
   height: auto;
 }
 
-.adventure figcaption {
+.employees figcaption {
   font-weight: bold;
   margin-top: 10px;
 }
 
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.contact-info span {
+  width: calc(50% - 10px);
+  padding: 10px;
+}
+
+
+/* CSS form */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap');
+
+.form-section {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* body {
+    font-family: Merriweather, Georgia, serif;
+    font-size: 1.2em;
+    color: #333;
+    background: #fff;
+  } */
+
+  /* header {
+    margin: 0 auto;
+    width: 650px;
+  } */
+
+  .form-section h1 {
+    margin: 1rem;
+    font-size: 1.5em;
+    color: navy;
+    text-align: center;
+  }
+
+  form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+  }
+
+  fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+  }
+
+  label, input, button, select, textarea {
+    font-family: Roboto, Arial, sans-serif;
+  }
+
+  label {
+    text-align: right;
+    padding-right: 1rem;
+  }
+
+  input, select, textarea, code {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    
+  }
+
+  button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+  }
+
+  button:hover {
+    background-color: darkgreen;
+  }
+
+  .form-section footer {
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 0.8em;
+    color: #777;
+    border-top: 1px solid #ccc;
+  }
+
+  .form-section .form-item {
+    display: grid;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .form-section li::marker {
+    color: blue;
+    font-size: 20px;
+  }
+
+  .form-section code {
+    display: inline-block;
+    padding: 4px;
+    background-color: #eee;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+
+
+  }
+
+  form-section li {
+    padding: 3px;
+  }
+
+  legend {
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3em;
+  }
+
+  
