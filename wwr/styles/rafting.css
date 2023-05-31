@@ -59,6 +59,8 @@
   }
 nav a {
     text-decoration: none;
+    font-size: 2vw;
+    
   }
 
   section {
@@ -68,13 +70,24 @@ nav a {
   
   main div article {
     position: absolute;
-    top: 30%;
+    top: 20%;
     background-color: rgba(247, 197, 159, 0.7);
     padding: 10px;
-    left: 900px;
     right: 20px;
-    height: auto; 
-  }
+    width: 50vh; /* Set the width to a dynamic value based on viewport height */
+    height: auto; /* Set the height to match the width */
+    margin-right: 40px; /* Add a gap between the container and the surrounding elements */
+}
+
+.article-img{
+  width: 30vh;
+  height: auto;
+  float: right;
+  border: 1px solid steelblue;
+  padding: 2px;
+  box-shadow: 0 0 30px gray;
+}
+
 
   .hero{
     position: relative;
@@ -91,28 +104,36 @@ nav a {
   }
 
   .hero h1 {
+    
     position: absolute;
     color: white;
     background-color: rgba(0, 0, 0, 0.4);
-    top: 15%;
+    top: 8%;
     width: 100%;
     text-align: center;
    
 }
 
-.hero p {
+  h2 {
+  
+  color: #004E89;
+  background-color:  #F7C59F;
+  top: 15%;
+  width: 100%;
+  text-align: center;
+ }
+
+p {
     color: black;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    padding: 2vw;
+    text-align: center;
+    
 
 }
 
-.article-img{
-    width: 150px;
-    height: auto;
-    float: right;
-    border: 1px solid steelblue;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
-}
+
 
 /* adventure section */
 .employees {
@@ -273,4 +294,111 @@ nav a {
     font-size: 1.3em;
   }
 
+  #useremail,  #name  {
+    margin: 5px; 
+    width: 80%;
+
+  }
+
+  /*  trips.html */
+
+  .trips {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto); 
+    grid-gap: 20px; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.trips figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trips figure img {
+  max-width: 50%;
+  height: auto;
+}
+
+figcaption {
+  font-family: Noteworthy,Helvetica,Arial,sans-serif;
+  line-height: 1.0em;
+  font-size:xx-large;
+}
+
+.trips p {
+  color: rgb(202, 192, 192);
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    padding: 1vw;
+    text-align: justify;
+}
+
+  .trip-table-container {
+    width: 25%;
+    margin: 0 auto;
+  }
   
+  .trip-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .trip-table th,
+  .trip-table td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .call-to-action {
+    text-align: center;
+    padding: 20px;
+}
+
+.call-to-action h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.class_cta {
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  height: 200px;
+}
+
+.call-to-action p {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+
+}
+
+.call-to-action .btn {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 4px;
+    background-color: #FF6B35;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.call-to-action .btn:hover {
+    background-color: #FF6B35;
+}
+
+#trips_img1, #trips_img2 {
+  max-width: 90%;
+  height: auto;
+
+}

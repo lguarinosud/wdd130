@@ -1,0 +1,107 @@
+/* Add necessary styles for the Trips page */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h2, h3 {
+    margin: 0;
+  }
+  
+  p {
+    margin: 0 0 1em;
+  }
+  
+  /* Layout Styles */
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .trip {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .trip img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .trip h3 {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .trip p {
+    font-size: 14px;
+  }
+  
+  .trip-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  .trip-table th,
+  .trip-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Call to Action Styles */
+  .call-to-action {
+    text-align: center;
+    padding: 40px;
+    background-color: #f2f2f2;
+  }
+  
+  .call-to-action h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .call-to-action p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
